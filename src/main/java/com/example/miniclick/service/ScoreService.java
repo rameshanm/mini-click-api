@@ -23,15 +23,6 @@ public class ScoreService {
         return gamerRepository.getAvgScoreByGame(game);
     }
 
-    public Map<String, Double> getAvgScoreofAllGames() {
-        List<Tuple> list = gamerRepository.getAvgScoreOfAllGame();
-        Map<String, Double> avgScoreMap = new HashMap<>();
-        for (Tuple item : list) {
-            System.out.println(item.toString());
-        }
-        return avgScoreMap;
-    }
-
     public List<AvgScoreView> getAvgScoreByGameAndDifficulty() {
         List<AvgScoreView> list = gamerRepository.getAvgScoreByGameAndDifficulty();
         return list;

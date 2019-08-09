@@ -20,14 +20,6 @@ public class ScoreResource {
     @Autowired
     private ScoreService scoreService;
 
-    @GetMapping
-    public Map<String, Double> getAvgScoreofAllGames() {
-        Map<String, Double> avgScoreOfEachGame = new HashMap<String, Double>();
-        avgScoreOfEachGame = scoreService.getAvgScoreofAllGames();
-
-        return avgScoreOfEachGame;
-    }
-
     @GetMapping("/1")
     public List<AvgScoreView> getAvgScoreByGameAndDifficulty() {
         return scoreService.getAvgScoreByGameAndDifficulty();
