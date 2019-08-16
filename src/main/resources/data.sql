@@ -21,4 +21,4 @@ insert into gamer (id, user_name, game, difficulty, start_time, end_time, score)
 insert into gamer (id, user_name, game, difficulty, start_time, end_time, score) values(21, 'user21', 'B', 'MEDIUM', '2019-06-26 03:30:00', '2019-06-28 05:30:00', 760);
 insert into gamer (id, user_name, game, difficulty, start_time, end_time, score) values(22, 'user22', 'A', 'EASY', '2019-06-29 03:30:00', '2019-06-29 05:30:00', 780);
 insert into gamer (id, user_name, game, difficulty, start_time, end_time, score) values(23, 'user23', 'D', 'MEDIUM', '2019-06-30 03:30:00', '2019-06-30 06:30:00', 320);
-insert into gamer (id, user_name, game, difficulty, start_time, end_time, score) values(24, 'user24', 'C', 'HARD', '2019-06-31 08:30:00', '2019-06-31 10:30:00', 1230);
+insert into gamer (id, user_name, game, difficulty, start_time, end_time, score) values(24, 'user24', 'C', 'HARD', '2019-06-30 08:30:00', '2019-06-30 10:30:00', 1230);
